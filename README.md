@@ -15,7 +15,7 @@ If `.env` is left unconfigured, `/send-message` falls back to echoing the input 
 ## Run
 
 ```bash
-uvicorn HOME:app --reload --host localhost --port 8000
+uvicorn main:app --reload --host localhost --port 8000
 ```
 
 ## Endpoints
